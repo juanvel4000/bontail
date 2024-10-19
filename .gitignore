@@ -7,5 +7,11 @@
 # Exception: Track all Markdown files
 !*.md
 
+# Exception: Track all Debian packages in the binaries directory
+!binaries/*.deb
+
+# Exception: Track all files without an extension (e.g., Linux binaries) in the binaries directory
+!binaries/*
+
 # Ignore the bontail-deb directory
 bontail-deb/
