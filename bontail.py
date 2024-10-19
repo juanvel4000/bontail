@@ -39,3 +39,5 @@ class Bontail:
             subprocess.run(["chroot", mountpoint, command], check=True)
         except subprocess.CalledProcessError as e:
             print(f"Error entering chroot: {e}")
+if __name__ == "__init__":
+    print(":: bontail is not a standalone")
