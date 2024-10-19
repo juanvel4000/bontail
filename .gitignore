@@ -1,4 +1,11 @@
-*.txt
-*.img
-*.log
-*.sh
+# Ignore all files with extensions
+*.*
+
+# Exception: Track all Python files
+!*.py
+
+# Exception: Track all Markdown files
+!*.md
+
+# Ignore the bontail-deb directory
+bontail-deb/
